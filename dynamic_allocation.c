@@ -8,6 +8,6 @@ int main(){
     int n,*p;
     scanf("%d", &n);
     p = (int*)malloc(sizeof(int)*n);
-    
+
     printf("%d\n",sizeof(*p)/sizeof(int));
 }
